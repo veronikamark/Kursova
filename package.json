@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/google-fonts": "^3.0.2",
+    "nuxt": "^3.7.0"
+  },
+  "dependencies": {
+    "@nuxtjs/robots": "^3.0.0",
+    "@vuepic/vue-datepicker": "^6.1.0",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
+    "git": "^0.1.5",
+    "js-base64": "^3.7.5",
+    "mongodb": "^6.1.0",
+    "nuxt-compress": "^5.0.0",
+    "nuxt-swiper": "^1.2.2",
+    "redirect-ssl": "^3.0.0",
+    "telegrambot": "^0.1.0"
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.lvivcosmetics.com.ua/sitemap.xml
